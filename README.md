@@ -24,3 +24,11 @@ Things you may want to cover:
 * ...
 
 *https://guides.railsgirls.com/devise
+git push -u origin master
+rails generate model goal name:string importance:integer
+rails generate model plan name:string plan1:string plan2:string plan3:string plan4:string plan5:string plan6:string plan7:string plan8:
+
+"""
+rails g migration AddGoalRefToPlans goal:references
+rails g migration AddUserRefToGoals user:references
+"""
