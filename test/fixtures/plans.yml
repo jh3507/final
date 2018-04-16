@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  plan1: MyString
+  plan2: MyString
+  plan3: MyString
+  plan4: MyString
+  plan5: MyString
+  plan6: MyString
+  plan7: MyString
+  plan8: MyString
+
+two:
+  name: MyString
+  plan1: MyString
+  plan2: MyString
+  plan3: MyString
+  plan4: MyString
+  plan5: MyString
+  plan6: MyString
+  plan7: MyString
+  plan8: MyString

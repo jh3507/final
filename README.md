@@ -1,4 +1,3 @@
-#      WRITEUP
 
      Title: MandalaArt self-discipline Plan
      http://blog.livedoor.jp/aikidomori/otani.pdf
@@ -11,6 +10,8 @@
 
      Models and Description: 
 
+user : devises.gem
+user authentication
 
 User 
 
