@@ -10,13 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180416024315) do
+ActiveRecord::Schema.define(version: 20180416024836) do
 
   create_table "goals", force: :cascade do |t|
     t.string "name"
     t.integer "importance"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_goals_on_user_id"
   end
 
   create_table "plans", force: :cascade do |t|
@@ -31,6 +33,8 @@ ActiveRecord::Schema.define(version: 20180416024315) do
     t.string "plan8"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "goal_id"
+    t.index ["goal_id"], name: "index_plans_on_goal_id"
   end
 
   create_table "users", force: :cascade do |t|
