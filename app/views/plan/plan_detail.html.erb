@@ -1,0 +1,35 @@
+<h1>Welcome to Planner</h1>
+
+<h2><%= @plan.name %></h3>
+<li><%= @plan.plan1 %></li>
+<li><%= @plan.plan2 %></li>
+<li><%= @plan.plan3 %></li>
+<li><%= @plan.plan4 %></li>
+<li><%= @plan.plan5 %></li>
+<li><%= @plan.plan6 %></li>
+<li><%= @plan.plan7 %></li>
+<li><%= @plan.plan8 %></li>
+
+</br>
+<%= form_for ( "plan/new_new_plan" ) do |f| %>
+Update Details</br>
+Plan 1
+<%= f.text_field :p1 %></br>
+Plan 2
+<%= f.text_field :p2 %></br>
+Plan 3
+<%= f.text_field :p3 %></br>
+Plan 4
+<%= f.text_field :p4 %></br>
+Plan 5
+<%= f.text_field :p5 %></br>
+Plan 6
+<%= f.text_field :p6 %></br>
+Plan 7
+<%= f.text_field :p7 %></br>
+Plan 8
+<%= f.text_field :p8 %></br>
+<%= f.hidden_field :extraparam, :value => @plan.id %>
+<%= f.button :submit %>
+
+<% end %>

@@ -1,0 +1,31 @@
+<h1>Welcome to Planner</h1>
+
+<h3><%= @goal.name %></h3>
+<% @plans.each do |t| %>
+    <li><%= t.name %><%= link_to "Detail", {:controller => "plans", :action => "plan_detail", :goal_id => t.goal_id, :plan_id => t.id }%></li>
+
+<% end %>
+
+</br>
+<%= form_for ( "goal/plan_new_submit" ) do |f| %>
+Update Plans</br>
+Plan 1
+<%= f.text_field :p1 %></br>
+Plan 2
+<%= f.text_field :p2 %></br>
+Plan 3
+<%= f.text_field :p3 %></br>
+Plan 4
+<%= f.text_field :p4 %></br>
+Plan 5
+<%= f.text_field :p5 %></br>
+Plan 6
+<%= f.text_field :p6 %></br>
+Plan 7
+<%= f.text_field :p7 %></br>
+Plan 8
+<%= f.text_field :p8 %></br>
+<%= f.hidden_field :extraparam, :value => @goal.id %>
+<%= f.button :submit %>
+
+<% end %>
