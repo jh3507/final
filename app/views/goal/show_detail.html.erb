@@ -2,7 +2,15 @@
 
 <h3><%= @goal.name %></h3>
 <% @plans.each do |t| %>
-    <li><%= t.name %><%= link_to "Detail", {:controller => "plans", :action => "plan_detail", :goal_id => t.goal_id, :plan_id => t.id }%></li>
+<div class="square">
+   <div class="content">
+        <div class="table">
+            <div class="table-cell">
+                <%= t.name %><%= link_to "Detail", {:controller => "plans", :action => "plan_detail", :goal_id => t.goal_id, :plan_id => t.id }%>
+            </div>
+        </div>
+    </div>
+</div>
 
 <% end %>
 

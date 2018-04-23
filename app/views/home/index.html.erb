@@ -1,8 +1,17 @@
-<h3>Welcome to Planner</h3>
-Goals
-<% @goals.each do |t| %>
-    <li><%= t.name %><%= link_to "Details", {:controller => "goals", :action => "show_detail", :goal_id => t.id }%></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../../assets/stylesheets/styles.css">
+   </head> 
+   <body>
+		<h3>Welcome to Planner</h3>
+		Goals
+		<% @goals.each do |t| %>
+		    <li><%= t.name %><%= link_to "Details", {:controller => "goals", :action => "show_detail", :goal_id => t.id }%></li>
 
-<% end %>
-<%= button_to "Make a new goal!", add_path(), :class => "button medium", :method => :patch %>
-
+		<% end %>
+		<%= button_to "Make a new goal!", add_path(), :class => "button medium", :method => :patch %>
+    </body>
+</html>
