@@ -42,8 +42,10 @@
 - Users can set up a goal
 - Users can make plans for the goal
 - Users can make subplans for each plan
+- Users can score the goals
+- Users can checkout the plans for dailiy plan (will be updated after final)
+- Users can keep track of their accomplishment history (will be updated after final)
                
-           
 ### Division of Labor: 
 - Seungwoo: Made models and views
 - Juwhan: Made models and controllers
