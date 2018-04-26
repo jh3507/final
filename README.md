@@ -1,37 +1,49 @@
 
-     Title: MandalaArt self-discipline Plan
-     http://blog.livedoor.jp/aikidomori/otani.pdf
+# Title: MandalaArt self-discipline Plan
 
-     Team Members: Seungwoo Son, Juwhan Kim 
+### Team Members: Seungwoo Son, Juwhan Kim 
 
-     Demo Link: (not prepared yet)
+### Demo Link: https://drive.google.com/open?id=1mkmVUHJO3_QdH2f1bxods_WDvFnJzCAY
 
-     Idea: User can create three by three sub goal, focused on the main goal. Each sub goal is expanded by three by three sub plans. After the user finish filling out nine by nine plan, user can check out the plans for the daily plan.
+### Idea: User can create three by three sub goal, focused on the main goal. Each sub goal is expanded by three by three sub plans. After the user finish filling out nine by nine plan, user can check out the plans for the daily plan.
+https://drive.google.com/open?id=1mkmVUHJO3_QdH2f1bxods_WDvFnJzCAY
 
-     Models and Description: 
+### Models and Description: 
 
-user : devises.gem
-user authentication
+-  user : devises.gem (user authentication)
 
-User 
+### User 
 
-     ● Email
-     ● PW
+- email
+- encrypted_password
+- reset password token
+- reset password sent at
+- remember created at
+- sign in coun
+- current sign in at
+- last sign in at
+- current sign in ip
+- last sign in ip
 
-Plan 
+### Goal
+- goals
+- name
+- importance
+- user id
 
-     ● Email
-Sub-plan
-     ● Contents
+### Plan 
 
-Features: 
-               ●  Users can log in 
- 
-               ●  Users can make plans
+- name
+- plan1 ~ plan8
+
+
+### Features: 
+- Users can log in 
+- Users can set up a goal
+- Users can make plans for the goal
+- Users can make subplans for each plan
+               
            
-
-     Division of Labor: 
-
-               ●  Seungwoo: Made models
-
-               ●  Juwhan: Made views and controllers
+### Division of Labor: 
+- Seungwoo: Made models and views
+- Juwhan: Made models and controllers
