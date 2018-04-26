@@ -6,7 +6,7 @@
 ### Demo Link: https://drive.google.com/open?id=1mkmVUHJO3_QdH2f1bxods_WDvFnJzCAY
 
 ### Idea: User can create three by three sub goal, focused on the main goal. Each sub goal is expanded by three by three sub plans. After the user finish filling out nine by nine plan, user can check out the plans for the daily plan.
-https://drive.google.com/open?id=1mkmVUHJO3_QdH2f1bxods_WDvFnJzCAY
+- https://drive.google.com/open?id=1mkmVUHJO3_QdH2f1bxods_WDvFnJzCAY
 
 ### Models and Description: 
 
